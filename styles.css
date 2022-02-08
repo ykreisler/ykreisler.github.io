@@ -1,0 +1,155 @@
+@font-face {
+    font-family: Futura-Light;
+    src: url(/fonts/FuturaRenner-Light.otf);
+    
+}
+@font-face {
+    font-family: Futura-Regular;
+    src: url(/fonts/FuturaRenner-Regular.otf);
+}
+@font-face {
+    font-family: Beteckna;
+    src: url(/fonts/BetecknaGS.otf);
+}
+@font-face {
+    font-family: Beteckna-bold;
+    src: url(/fonts/BetecknaGS-Bold.ttf);
+    font-weight: bold;
+}
+@media screen and (max-width: 400px) {
+    #headerFont {
+        width:260px;
+        height:32px;
+        justify-content: left;
+        margin-right: 30%;
+    }
+    #eightFont {
+        width:260px;
+        height:32px;
+        justify-content: left;
+        margin-right: 30%;
+    }
+    .lyrics {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;  
+    }
+}
+
+body {
+    background-color: #eaebe3;
+     
+}
+
+p {
+    font-family: Futura-regular;
+    color: black;
+    font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Beteckna-bold;
+    color: #593649;
+}
+
+figcaption {
+    font-family: Futura-regular;
+}
+.gear, ul {
+    font-family: Futura-regular;
+
+}
+
+.headerContainer {
+ margin-top: auto;
+ margin-bottom: auto;
+ margin-left: auto;
+ margin-right: auto;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ padding: 20px;
+
+} 
+#headerFont {
+    width: 65%;
+    height: 40%;
+    margin-left: 8%;
+    padding: 30px;
+}
+#eightFont {
+    width: 30%;
+    height: 10%;
+    padding-bottom: 80px;
+    margin-left: 5%;
+}
+
+#fraymesFont {
+font-family: Futura-Light;
+font-size: 4rem;
+letter-spacing: 60px;
+width:43%;
+height: auto;
+display: flex;
+margin: auto;
+padding: 20px;
+resize: both;
+}
+
+#eightcover {
+    height: 45%;
+    width: 65%;
+    display: block;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    float: center;
+}
+
+.navbar { 
+    margin: auto;
+    padding: 10px;
+    overflow: hidden;
+    float: center;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    
+   
+    
+}
+#navbardiv {
+    float: center;
+    justify-content: center;
+}
+
+.navbar li, a {
+    display: flexbox;
+    padding: 20px;
+    text-decoration: none;
+    color: #3384FF;
+    font-family: Beteckna-bold;
+    font-size: large;
+    text-align: center;
+}
+.navbar li a:hover {
+    color: #9033FF;
+    transition: 0.8s;
+}
+.navbar li a:active {
+    color: rgb(255, 0, 234);
+    transition: 2ms;
+    font-size: 98%;
+}
+.credits {
+    text-align: center;
+    border: 1px maroon;
+}
+.lyrics {
+    text-align: center;
+
+}
+#gear, ul{
+    list-style-type: none;
+}
